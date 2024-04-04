@@ -36,7 +36,6 @@ const server = http.createServer((req, res) => {
     // Serve the requested page based on the URL
     if (req.url === '/') {
         res.end(pages['./index.html']);
-        console.log("pages", pages)
     } else if (req.url === '/about') {
         res.end(pages['./about.html']);
     } else if (req.url === '/contact') {
