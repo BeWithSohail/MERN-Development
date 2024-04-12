@@ -1,15 +1,14 @@
 {
-  "name": "node-js",
+  "name": "node-js2",
   "version": "1.0.0",
-  "description": "this just a test",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node createSAndRunServer.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "sohail",
+  "author": "Md_Sohail_Alam",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.19.2"
   }
 }

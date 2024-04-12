@@ -1,10 +1,8 @@
 const fs = require('fs');
 const http = require('http');
 const path = require('path');
-
-const PORT = 4000;
+const PORT = 3000;
 const hostName = 'localhost';
-
 console.log('Host Name:', hostName);
 console.log('PORT:', PORT);
 
@@ -53,3 +51,7 @@ console.log("pages", pages)
 server.listen(PORT, hostName, () => {
     console.log(`Server listening on http://${hostName}:${PORT}`);
 });
+
+
+// console.log("Directory Name", __dirname)
+// console.log("File Name", filename)
