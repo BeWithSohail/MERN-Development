@@ -1,0 +1,19 @@
+{
+  "name": "combined-all-together",
+  "version": "1.0.0",
+  "description": "Included HTML,CSS,JS,NODE,EXPRESS,AND MONGODB",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "MERN",
+    "SERIES"
+  ],
+  "author": "SOHAIL ALAM",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.3.1"
+  }
+}
