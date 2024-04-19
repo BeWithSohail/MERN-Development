@@ -2,7 +2,7 @@ const express = require("express");
     const path = require("path");
     const app = express();
     const port = 4000;
-    const router = require("./userRouter")
+    const router = require("./userRouter");
     // const bodyParser = require('body-parser');
     app.use(express.json());
     app.use(express.urlencoded({ extended: true }));
@@ -37,7 +37,7 @@ const express = require("express");
     
 
     app.get("/style.css", (req, res) => { 
-         console.log("path css file ", path.join(__dirname,"/style.css"))
+        console.log("path css file ", path.join(__dirname,"/style.css"))
         res.sendFile(path.join(__dirname , "/style.css"))    
     })
 
